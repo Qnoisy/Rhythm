@@ -1,1 +1,13 @@
+$black: #121212;
+$orange: #FF6428;
+$gray66: #666666;
+$gray86: #868686;
 
+$ff-Poppins: "Poppins";
+$ff-CalSans: "CalSans";
+
+@mixin df-centr{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
