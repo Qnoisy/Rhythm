@@ -1,0 +1,37 @@
+.header {
+}
+.header__container {
+	padding: 3.875rem 0;
+	display: flex;
+	gap: 59px;
+}
+.header__content {
+	display: flex;
+	gap: 4.6875rem;
+	width: 60%;
+}
+.header__block {
+	width: 40%;
+}
+.header__logo {
+	@include df-centr;
+	gap: 0.75rem;
+}
+.header__logo-title {
+	font-family: $ff-OpenSans;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: normal;
+}
+.header__nav {
+	@include df-centr;
+	gap: 3.5rem;
+}
+.header__link {
+	padding: 0 1.75rem;
+	color: rgba(18, 18, 18, 0.40);
+	font-family: $ff-Poppins;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: normal;
+}
