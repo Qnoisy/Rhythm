@@ -1,0 +1,58 @@
+.footer {
+	background: #EEEEEE;
+}
+.footer__container {
+	padding: 5rem 0 2.6875rem 0;
+}
+.footer__grid {
+	display: grid;
+	grid-template-columns: 2fr repeat(3, 1fr);
+	margin-bottom: 2rem;
+}
+.footer__logo {
+	@include df-centr;
+	justify-content: start;
+	gap: 1.5rem;
+	margin-bottom: 1.75rem;
+}
+.footer__logo-title {
+	color: $black;
+	font-family: $DM-Sans;
+	font-size: 2.5rem;
+	font-weight: 500;
+	line-height: normal;
+}
+.footer__item {
+	@include df-centr;
+	justify-content: start;
+	gap: 1.25rem;
+	margin-bottom: 1.25rem;
+	img{
+		width: 1.75rem;
+		height: 1.75rem;
+		object-fit: cover;
+	}
+}
+.item__text {
+	color: $gray66;
+}
+.item-link {
+	color: $black;
+	font-family: $ff-Poppins;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.footer__links {
+	display: flex;
+	gap: 2rem;
+}
+.footer__copyright {
+	color: rgba(18, 18, 18, 0.60);
+	font-family: $ff-Poppins;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 160%;
+	text-align: center;
+}
