@@ -16,6 +16,7 @@
 .header__logo {
 	@include df-centr;
 	gap: 0.75rem;
+	margin-right: 3rem;
 }
 .header__logo-title {
 	font-family: $DM-Sans;

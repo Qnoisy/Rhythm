@@ -1,0 +1,75 @@
+.block__img{
+	position: absolute;
+	width: 47rem;
+	height: 38.5rem;
+	object-fit: cover;
+	top:0;
+	right: 0;
+	border-radius: 0px 0px 151px 360px;
+	background: url(<path-to-image>), lightgray 0px -398.995px / 100% 172.014% no-repeat, linear-gradient(180deg, #FF8C60 0%, #FF5B1C 100%);
+	backdrop-filter: blur(20px);
+}
+
+.block__button {
+	@include df-centr;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -40px;
+	left: 50%;
+	width: 5rem;
+	height: 5rem;
+	animation: butt-anim 1s linear 1s infinite alternate forwards;
+	transition: 1s;
+}
+.block__button:hover{
+	animation-play-state: paused;
+	background-color: #ffd3c2;
+}
+@keyframes butt-anim{
+	0%{
+		bottom: -0px;
+	}
+	100%{
+		bottom: -15px;
+	}
+}
+.main-guitars__container {
+	padding: 6.25rem 0px;
+}
+.main-guitars__title {
+	font-size: 56px;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 1rem;
+}
+.main-guitars__text {
+	color: $gray66;
+	font-family: $ff-Poppins;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: normal;
+}
+.main-guitars__links {
+	margin-top: 2.0625rem;
+	@include df-centr;
+	justify-content: start;
+	gap: 1.25rem;
+}
+.main-guitars__button {
+	padding: 1.125rem 3rem;
+	border-radius: 2.5rem;
+	background: $orange;
+	margin-right: 1.25rem;
+	transition: 0.4s;
+	span{
+		color: #FFF;
+		font-family: $ff-Poppins;
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: normal;
+	}
+	&:hover{
+		background-color: #ff7b47;
+	}
+}
