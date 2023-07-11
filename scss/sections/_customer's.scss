@@ -44,9 +44,8 @@
 .customers__data {
 	margin-top: 3.5rem;
 	display: flex;
+	gap: 1rem;
 	justify-content: space-between;
-}
-.data__person {
 }
 .customers__name {
 	color: #000;
@@ -66,6 +65,7 @@
 .data__switch {
 	@include df-centr;
 	gap: 6px;
+	cursor: pointer;
 	span{
 		border-radius: 20px;
 	}

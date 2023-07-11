@@ -13,7 +13,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
-	<script defer src="js/script"></script>
 </head>
 
 <body>
@@ -21,7 +20,7 @@
 		<header class="header">
 			<div class="header__container">
 				<div class="header__content">
-					<div class="header__logo ">
+					<div class="header__logo">
 						<img src="img/header/Butterfly.png" alt="">
 						<div class="header__logo-title">
 							Rhythm
@@ -41,10 +40,10 @@
 		<main class="main">
 			<section class="main-guitars">
 				<div class="main-guitars__container">
-					<div class="main-guitars__title title">
+					<div class="main-guitars__title title -anim-items -active">
 						<p>Browse top quality</p> <span>Guitars</span> online
 					</div>
-					<div class="main-guitars__text">
+					<div class="main-guitars__text -anim-items -active">
 						<p>Explore 50k+ latest collections of branded guitars</p>
 						<p>online with Rhythm.</p>
 					</div>
@@ -66,7 +65,7 @@
 			</section>
 			<section class="store">
 				<div class="store__container">
-					<div class="store__title title">
+					<div class="store__title title -anim-items -active">
 						Check out the <span>Store</span>
 					</div>
 					<div class="store__block">
@@ -155,7 +154,7 @@
 			</section>
 			<section class="categories">
 				<div class="categories__container">
-					<div class="categories__title title">
+					<div class="categories__title title -anim-items -active">
 						Choose based on <span>Categories</span>
 					</div>
 					<div class="categories__wrap">
@@ -184,7 +183,7 @@
 			</section>
 			<section class="best-brands">
 				<div class="best-brands__container">
-					<div class="best-brands__title title">
+					<div class="best-brands__title title -anim-items -active">
 						Featuring the Best <span>Brands</span>
 					</div>
 					<div class="best-brands__wrap">
@@ -217,7 +216,7 @@
 			</section>
 			<section class="why-try">
 				<div class="why-try__container">
-					<div class="why-try__title title">
+					<div class="why-try__title title -anim-items -active">
 						Why try <span>Rhythm?</span>
 					</div>
 					<div class="why-try__wrap">
@@ -259,7 +258,7 @@
 			</section>
 			<section class="customers">
 				<div class="customers__container">
-					<div class="customers__title title">
+					<div class="customers__title title -anim-items -active">
 						What our <span>customer's</span> say
 					</div>
 					<div class="customers__content">
@@ -283,10 +282,10 @@
 									</div>
 								</div>
 								<div class="data__switch">
-									<span class="active"></span>
-									<span class="passive"></span>
-									<span class="passive"></span>
-									<span class="passive"></span>
+									<span class="active" data-switch="1"></span>
+									<span class="passive" data-switch="2"></span>
+									<span class="passive" data-switch="3"></span>
+									<span class="passive" data-switch="4"></span>
 								</div>
 							</div>
 						</div>
@@ -297,7 +296,7 @@
 				<div class="favorite__container">
 					<div class="favorite__wrap">
 						<div class="favorite__block">
-							<div class="favorite__title title">
+							<div class="favorite__title title -anim-items -active">
 								Browse and buy your <span>favorite guitars</span> with Rhythm.
 							</div>
 							<div class="favorite__links">
@@ -379,6 +378,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="js/script.js"></script>
 	</div>
 </body>
 

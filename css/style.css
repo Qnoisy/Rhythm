@@ -118,9 +118,19 @@ body {
   font-size: 2.75rem;
   font-weight: 600;
   line-height: normal;
+  -webkit-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 .title span {
   color: #FF6428;
+}
+.title.-active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 @media (max-width: 1300px) {
@@ -511,6 +521,16 @@ body {
   font-size: 1rem;
   font-weight: 500;
   line-height: normal;
+  -webkit-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0.4s;
+  transition: all 0.8s ease 0.4s;
+}
+.main-guitars__text.-active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .main-guitars__links {
@@ -1048,6 +1068,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 1rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1081,6 +1102,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 6px;
+  cursor: pointer;
 }
 .data__switch span {
   border-radius: 20px;
