@@ -1,0 +1,45 @@
+.favorite__wrap {
+	display: flex;
+	justify-content: space-between;
+	gap: 6rem;
+	margin-bottom: 8rem;
+}
+.block-position {
+	position: relative;
+	img{
+		width: 213px;
+		height: 461px;
+		border-radius: 25px;
+		box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.08);
+		position: absolute;
+	}
+}
+.favorite__title {
+	margin-bottom: 3.75rem;
+}
+.favorite__links {
+	display: flex;
+	justify-content: flex-start;
+	gap: 1.5625rem;
+}
+.favorite__link {
+
+}
+.orange-oval {
+	position: absolute;
+	width: 568px;
+	height: 354px;
+	border-radius: 50%;
+	background: $orange;
+}
+.favorite__block {
+	width: 50%;
+}
+.first {
+	left: 7.5%;
+	top: -35%;
+}
+.second {
+	right: 10%;
+	bottom: -45%;
+}

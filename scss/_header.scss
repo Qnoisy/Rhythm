@@ -7,7 +7,8 @@
 }
 .header__content {
 	display: flex;
-	gap: 4.6875rem;
+	justify-content: space-between;
+	gap: 1.875rem;
 	width: 60%;
 }
 .header__block {
@@ -26,7 +27,8 @@
 }
 .header__nav {
 	@include df-centr;
-	gap: 3.5rem;
+	justify-content: space-between;
+	gap: 1.875rem;
 }
 .header__link {
 	padding: 0 1.75rem;

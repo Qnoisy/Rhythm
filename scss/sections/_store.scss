@@ -24,7 +24,7 @@
 }
 .store__block-cards {
 	display: grid;
-	grid-template-columns: repeat(3,33.3333%);
+	grid-template-columns: repeat(3,1fr);
 	gap: 3.375rem;
 }
 .store__block-card {
@@ -34,9 +34,13 @@
 .store__card-image {
 	margin-bottom: 2.5rem;
 	height: 14.875rem;
+	position: relative;
 	img{
 		width: 100%;
 		height: 100%;
+		object-fit: contain;
+		position: absolute;
+		inset: 0;
 	}
 }
 .padding{

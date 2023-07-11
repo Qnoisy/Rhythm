@@ -135,7 +135,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 4.6875rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.875rem;
   width: 60%;
 }
 
@@ -174,7 +177,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 3.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.875rem;
 }
 
 .header__link {
@@ -425,7 +431,7 @@ body {
 
 .store__block-cards {
   display: grid;
-  grid-template-columns: repeat(3, 33.3333%);
+  grid-template-columns: repeat(3, 1fr);
   gap: 3.375rem;
 }
 
@@ -437,10 +443,15 @@ body {
 .store__card-image {
   margin-bottom: 2.5rem;
   height: 14.875rem;
+  position: relative;
 }
 .store__card-image img {
   width: 100%;
   height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  inset: 0;
 }
 
 .padding {
@@ -630,6 +641,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  margin-bottom: 6.25rem;
 }
 
 .customers__img {
@@ -722,4 +734,63 @@ body {
   background: #C4C4C4;
   width: 10px;
   height: 16px;
+}
+
+.favorite__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 6rem;
+  margin-bottom: 8rem;
+}
+
+.block-position {
+  position: relative;
+}
+.block-position img {
+  width: 213px;
+  height: 461px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.08);
+  position: absolute;
+}
+
+.favorite__title {
+  margin-bottom: 3.75rem;
+}
+
+.favorite__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 1.5625rem;
+}
+
+.orange-oval {
+  position: absolute;
+  width: 568px;
+  height: 354px;
+  border-radius: 50%;
+  background: #FF6428;
+}
+
+.favorite__block {
+  width: 50%;
+}
+
+.first {
+  left: 7.5%;
+  top: -35%;
+}
+
+.second {
+  right: 10%;
+  bottom: -45%;
 }
