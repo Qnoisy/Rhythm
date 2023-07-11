@@ -6,7 +6,8 @@
 	top:0;
 	right: 0;
 	border-radius: 0px 0px 151px 360px;
-	background: url(<path-to-image>), lightgray 0px -398.995px / 100% 172.014% no-repeat, linear-gradient(180deg, #FF8C60 0%, #FF5B1C 100%);
+	background: lightgray 0px -398.995px / 100% 172.014% no-repeat, linear-gradient(180deg, #FF8C60 0%, #FF5B1C 100%);
+	object-position: bottom;
 	backdrop-filter: blur(20px);
 }
 
@@ -38,7 +39,7 @@
 	padding: 6.25rem 0px;
 }
 .main-guitars__title {
-	font-size: 56px;
+	font-size: 3.5rem;
 	font-weight: 600;
 	line-height: normal;
 	margin-bottom: 1rem;
@@ -71,5 +72,67 @@
 	}
 	&:hover{
 		background-color: #ff7b47;
+	}
+}
+
+@media (max-width: 1670px) {
+	
+}
+@media (max-width: 1500px) {
+	.block__img{
+		width: 42rem;
+		height: 33.5rem;
+	}
+}
+@media (max-width: 1300px) {
+	.main-guitars__title {
+		font-size: 2.875rem;
+	}
+	.main-guitars__text {
+		font-size: 1rem;
+	}
+	.block__img{
+		width: 29rem;
+		height: 27.5rem;
+	}
+}
+@media (max-width: 1000px) {
+	.main-guitars__title {
+		font-size: 2.875rem;
+	}
+	.main-guitars__text {
+		font-size: 1rem;
+	}
+	.block__img{
+		display: none;
+	}
+	.main-guitars__container {
+		padding: 3.25rem 0px;
+	}
+	.main-guitars{
+		text-align: center;
+	}
+	.main-guitars__links{
+		justify-content: center;
+	}
+	.main-guitars__container {
+		padding: 4rem 0px;
+	}
+}
+@media (max-width: 500px) {
+	.main-guitars__container {
+		padding: 3rem 0px;
+	}
+	.main-guitars__title {
+		font-size: 1.8rem;
+	}
+	.main-guitars__text {
+		font-size: 0.9rem;
+	}
+	.main-guitars__button {
+		padding: 1rem 1.3rem;
+		span{
+			font-size: 0.9rem;
+		}
 	}
 }

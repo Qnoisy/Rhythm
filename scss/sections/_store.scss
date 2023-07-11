@@ -15,6 +15,7 @@
 	letter-spacing: 1.6px;
 	display: flex;
 	justify-content: space-between;
+	gap: 1rem;
 }
 .store__viev {
 	color: $gray86;
@@ -58,4 +59,54 @@
 	font-family: $ff-Poppins;
 	font-size: 0.875rem;
 	font-weight: 400;
+}
+
+@media (max-width: 1300px) {
+	.store__block-cards {
+		gap: 2rem;
+	}
+}
+@media (max-width: 1000px) {
+	.store__block-sub-title {
+		font-size: 1rem;
+	}
+	.store__viev {
+		font-size: 1rem;
+	}
+	.store__guitar-name {
+		font-size: 0.9rem;
+	}
+	.store__guitar-price {
+		font-size: 0.775rem;
+	}
+	.store__card-image {
+		margin-bottom: 1.3rem;
+		height: 11rem;
+	}
+	.store__block {
+		margin-bottom: 3rem;
+	}
+	.store__title {
+		margin-bottom: 3rem;
+	}
+}
+@media (max-width: 500px) {
+	.store__viev {
+		font-size: 0.9rem;
+	}
+	.store__guitar-name {
+		font-size: 0.8rem;
+	}
+	.store__guitar-price {
+		font-size: 0.675rem;
+	}
+	.store__card-image {
+		margin-bottom: 0rem;
+	}
+	.store__block-cards {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.store__block {
+		margin-bottom: 1rem;
+	}
 }

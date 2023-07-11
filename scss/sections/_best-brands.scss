@@ -13,9 +13,39 @@
 .best-brands__card {
 	position: relative;
 	height: 60px;
+	width: 120px;
 	img{
 		width: 100%;
 		height: 100%;
 		object-fit: contain;
+	}
+}
+
+@media (max-width: 1300px) {
+	.best-brands__wrap {
+		margin-bottom: 2rem;
+		row-gap: 2rem;
+		column-gap: 5rem;
+	}
+}
+@media (max-width: 1000px) {
+	.best-brands__wrap {
+		margin-bottom: 1.5rem;
+		grid-template-rows: repeat(2,1fr);
+		grid-template-columns: repeat(2,1fr);
+		justify-items: center;
+		margin-bottom: 2rem;
+		row-gap: 1.5rem;
+		column-gap: 2rem;
+	}
+	.best-brands__title {
+		margin-bottom: 3rem;
+	}
+}
+@media (max-width: 500px) {
+	.best-brands__wrap {
+		grid-template-rows: repeat(1,1fr);
+		grid-template-columns: repeat(1,1fr);
+		gap: 1rem;
 	}
 }

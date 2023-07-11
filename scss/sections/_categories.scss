@@ -46,3 +46,34 @@
 	font-size: 1.25rem;
 	font-weight: 600;
 }
+
+@media (max-width: 1300px) {
+	.categories__wrap {
+		gap: 2rem;
+	}
+	.categories__card {
+		width: 200px;
+		height: 260px;
+	}
+}
+@media (max-width: 1000px) {
+	.categories__wrap {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 2rem;
+		justify-items: center;
+	}
+	.categories__title {
+		margin-bottom: 3rem;
+	}
+}
+@media (max-width: 500px) {
+	.categories__wrap {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		gap: 1rem;
+	}
+	.categories__text {
+		font-size: 1rem;
+	}
+}
