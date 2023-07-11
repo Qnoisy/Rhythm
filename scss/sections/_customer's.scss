@@ -1,0 +1,82 @@
+.customers__container{
+	max-width: 65rem;
+}
+.customers__title {
+	margin-bottom: 6.8125rem;
+	text-align: center;
+}
+.customers__content {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.customers__img{
+	position: relative;
+	left: 3.125rem;
+	overflow: hidden;
+	border-radius: 50%;
+	z-index: 2;
+	img{
+		width: 21.3125rem;
+		height: 21.3125rem;
+		object-fit: cover;
+	}
+}
+.customers__triangle {
+	position: absolute;
+	top: 3.125rem;
+	z-index: 1;
+	width: 284.724px;
+	height: 257.893px;
+	transform: rotate(-7.724deg);
+	border-radius: 40px 0px 400px 400px;
+	background: #FF6428;
+}
+.customers__text {
+	color: $gray66;
+	font-family: $ff-Poppins;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 160%;
+}
+.customers__data {
+	margin-top: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.data__person {
+}
+.customers__name {
+	color: #000;
+	font-family: $ff-Poppins;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 160%;
+}
+.customers__description {
+	color: $gray86;
+	font-family: $ff-Poppins;
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 160%;
+	letter-spacing: 1.44px;
+}
+.data__switch {
+	@include df-centr;
+	gap: 6px;
+	span{
+		border-radius: 20px;
+	}
+}
+.active {
+	background-color: $orange;
+	transform: rotate(-90deg);
+	width: 10px;
+	height: 20px;
+	margin: 0 10px;
+}
+.passive {
+	background: #C4C4C4;
+	width: 10px;
+	height: 16px;
+}

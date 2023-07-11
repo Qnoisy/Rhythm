@@ -1,0 +1,41 @@
+.why-try {
+	background-color: $black;
+	color: #fff;
+	font-family: $ff-Poppins;
+}
+.why-try__container {
+}
+.why-try__title {
+	margin-bottom: 75px;
+	text-align: center;
+}
+.why-try__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.why-try__card {
+	@include df-centr;
+	flex-direction: column;
+}
+.why-try__img {
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 1.25rem;
+	background: #262626;
+	margin-bottom: 2.5rem;
+	@include df-centr;
+}
+.why-try__card-title {
+	font-size: 1.125rem;
+	font-weight: 600;
+	letter-spacing: 1.44px;
+	text-transform: uppercase;
+	margin-bottom: 0.75rem;
+}
+.why-try__card-sub-title {
+	color: #666;
+	text-align: center;
+	font-size: 0.875rem;
+	font-weight: 400;
+	text-transform: capitalize;
+}

@@ -516,3 +516,210 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.best-brands__title {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.best-brands__wrap {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5rem;
+  -webkit-column-gap: 10.125rem;
+     -moz-column-gap: 10.125rem;
+          column-gap: 10.125rem;
+}
+
+.best-brands__card {
+  position: relative;
+  height: 60px;
+}
+.best-brands__card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.why-try {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.why-try__title {
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.why-try__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.why-try__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.why-try__img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 1.25rem;
+  background: #262626;
+  margin-bottom: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.why-try__card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.why-try__card-sub-title {
+  color: #666;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.customers__container {
+  max-width: 65rem;
+}
+
+.customers__title {
+  margin-bottom: 6.8125rem;
+  text-align: center;
+}
+
+.customers__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.customers__img {
+  position: relative;
+  left: 3.125rem;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 2;
+}
+.customers__img img {
+  width: 21.3125rem;
+  height: 21.3125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.customers__triangle {
+  position: absolute;
+  top: 3.125rem;
+  z-index: 1;
+  width: 284.724px;
+  height: 257.893px;
+  -webkit-transform: rotate(-7.724deg);
+          transform: rotate(-7.724deg);
+  border-radius: 40px 0px 400px 400px;
+  background: #FF6428;
+}
+
+.customers__text {
+  color: #666666;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.customers__data {
+  margin-top: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.customers__name {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.customers__description {
+  color: #868686;
+  font-family: "Poppins";
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 1.44px;
+}
+
+.data__switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6px;
+}
+.data__switch span {
+  border-radius: 20px;
+}
+
+.active {
+  background-color: #FF6428;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 10px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.passive {
+  background: #C4C4C4;
+  width: 10px;
+  height: 16px;
+}
