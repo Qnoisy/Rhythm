@@ -309,8 +309,8 @@ body {
   left: 50%;
   width: 5rem;
   height: 5rem;
-  -webkit-animation: butt-anim 1.3s ease-in-out 1s infinite alternate forwards;
-          animation: butt-anim 1.3s ease-in-out 1s infinite alternate forwards;
+  -webkit-animation: butt-anim 1.2s ease-in-out 1s infinite alternate forwards;
+          animation: butt-anim 1.2s ease-in-out 1s infinite alternate forwards;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -391,4 +391,73 @@ body {
 }
 .main-guitars__button:hover {
   background-color: #ff7b47;
+}
+
+.store__title {
+  text-align: center;
+  margin-bottom: 5.75rem;
+}
+
+.store__block {
+  margin-bottom: 6.375rem;
+}
+
+.store__block-sub-title {
+  color: #121212;
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.store__viev {
+  color: #868686;
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.store__block-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3333%);
+  gap: 3.375rem;
+}
+
+.store__block-card {
+  cursor: pointer;
+  width: 100%;
+}
+
+.store__card-image {
+  margin-bottom: 2.5rem;
+  height: 14.875rem;
+}
+.store__card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.padding {
+  padding: 3rem 0;
+}
+
+.store__guitar-name {
+  color: #121212;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.4375rem;
+}
+
+.store__guitar-price {
+  color: #666;
+  font-family: "Poppins";
+  font-size: 0.875rem;
+  font-weight: 400;
 }

@@ -19,7 +19,7 @@
 	left: 50%;
 	width: 5rem;
 	height: 5rem;
-	animation: butt-anim 1s linear 1s infinite alternate forwards;
+	animation: butt-anim 1.2s ease-in-out 1s infinite alternate forwards;
 	transition: 1s;
 }
 .block__button:hover{
@@ -28,10 +28,10 @@
 }
 @keyframes butt-anim{
 	0%{
-		bottom: -0px;
+		bottom: -40px;
 	}
 	100%{
-		bottom: -15px;
+		bottom: -55px;
 	}
 }
 .main-guitars__container {
